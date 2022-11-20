@@ -1,0 +1,523 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Asap:ital,wght@0,400;1,600&family=Lato&display=swap');
+
+
+  body{
+    margin: 0;
+    padding: 0; 
+ } 
+.firstbox{
+    background-color: #34373E;
+    height: 500px;
+}
+.phone{
+    width: 750px;
+    height: auto;
+    position: absolute;
+    right: 17px;
+    top: 100px;
+} 
+.logo{
+    color: white;
+    font-size: 25px;
+    font-family: 'Asap', sans-serif;
+    letter-spacing: 2.16px;
+    font-weight: bold;
+}
+.maincontainer{
+    background-color: #34373E;
+    height: 400px;
+    max-width: 100%;
+   
+}
+.firstcontlm{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 36px 40px 36px 30px;
+    
+
+}
+.menu{
+    display: flex;
+    gap: 70px;
+    align-items: center;
+    font-size: 15px;
+    color: #fff;
+    position: absolute;
+    right: 100px;
+    font-family: 'Lato', sans-serif;
+
+}
+.join{
+    background-color: #D84B4B;
+    height: 45px;
+    width: 130px;
+    border-radius: 32px;
+    color: #fff;
+    border: #D84B4B;
+}
+.demo{
+   background-color: #6A8BD6;
+   color: #fff;
+   height: 45px;
+   width: 130px;
+   border-radius: 32px;
+   border: #6A8BD6;
+
+}
+.titles h1{
+    color: #fff;
+    font-size: 50px;
+    font-family: 'Abril Fatface', cursive;
+    font-weight: lighter;
+}
+.titles p{
+    font-size: 18px;
+    color: #FFFFFF;
+    font-family: 'Lato', sans-serif;
+}
+.titles{
+    margin: 50px;
+
+}
+.buttons{
+    margin: 50px;
+}
+
+
+.header{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
+    font-weight: lighter;
+    color: #34373E;
+    font-size: 40px;
+}
+.underheader{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 13px;
+    color: #6C7280;
+    margin: -10px;
+    font-size: 18px;
+}
+.edebi{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;  
+    margin: 50px;
+}
+.header1{
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    margin: -6px;
+}
+.header2{
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    margin: -6px;
+}
+.header3{
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    margin: -6px;
+}
+.para1{
+    font-family: 'Lato', sans-serif;
+    color: #6C7280;
+    font-size: 13px;
+}
+.para2{
+    font-family: 'Lato', sans-serif;
+    color: #6C7280;
+    font-size: 13px;
+}
+.para3{
+    font-family: 'Lato', sans-serif;
+    color: #6C7280;
+    font-size: 13px;
+} 
+.prices{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    margin: 50px;
+    
+
+}
+.container2 h1{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Abril Fatface', cursive;
+    color: #34373E;
+    font-weight: lighter;
+}
+.container2 p{
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Lato';
+    color: #6C7280;
+} 
+.text1{
+    box-shadow: #0000003C;
+}
+.smallbox{
+    margin: 0px;
+    padding: 0px;
+}
+.pricebox1 button{
+    font-size: 15px;
+    background-color: #D84B4B;
+    border-radius: 30px;
+    border-color: #D84B4B;
+    width: 118px;
+    height: 37px;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    
+}
+.pricebox2 button{
+    font-size: 15px;
+    background-color: #D84B4B;
+    border-radius: 30px;
+    border-color: #D84B4B;
+    width: 118px;
+    height: 37px;
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+.pricebox3 button{
+    font-size: 15px;
+    background-color: #D84B4B;
+    border-radius: 30px;
+    border-color: #D84B4B;
+    width: 118px;
+    height: 37px;
+    color: #FFFFFF;
+}
+.pricebox4 button{
+    font-size: 15px;
+    background-color: #D84B4B;
+    border-radius: 30px;
+    border-color: #D84B4B;
+    width: 118px;
+    height: 37px;
+    color: #FFFFFF;
+}
+.pricebox1 .basicbox{
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: #34373E;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    background-image: linear-gradient(#F7F7F7, #F5F5F5);
+    width: 232px;
+    height: 65px;
+    border-radius: 2px 2px 0px 0px;
+    margin: 0px;
+    padding: 0px;
+}
+.pricebox1 .text1{
+    font-size: 14px;
+    line-height: 30px;
+    color: #34373E;
+    font-family: 'Lato', regular;
+}
+.pricebox1 .dollar19{
+    color: #34373E;
+    font-size: 40px;
+}
+.pricebox1{
+    box-shadow: #0000003C 0px 2px 3px;
+    height: 370px;
+    width: 232px;
+}
+.smallbox .premium{
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: #34373E;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    background-image: linear-gradient(#F7F7F7, #F5F5F5);
+    width: 232px;
+    height: 65px;
+    border-radius: 2px 2px 0px 0px;
+    margin: 0px;
+    padding: 0px;
+}
+.smallbox .underprem{
+    font-size: 13px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+.pricebox2 .smallbox{
+    width: 232px;
+    height: 65px;
+    border-radius: 2px 2px 0px 0px;
+}
+.pricebox2{
+    box-shadow: 0px 2px 3px #0000003C;
+    height: 370px;
+    width: 232px;
+}
+.pricebox2 .text2{
+    font-size: 14px;
+    line-height: 30px;
+    color: #34373E;
+    font-family: 'Lato', regular;
+}
+.pricebox3 .management{
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: #34373E;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    background-image: linear-gradient(#F7F7F7, #F5F5F5);
+    width: 232px;
+    height: 65px;
+    border-radius: 2px 2px 0px 0px;
+    margin: 0px;
+    padding: 0px;
+}
+.pricebox3 .text3{
+    font-size: 14px;
+    line-height: 30px;
+    color: #34373E;
+    font-family: 'Lato', regular;
+}
+ .pricebox3{
+    box-shadow: 0px 2px 3px #0000003C;
+    height: 370px;
+    width: 232px;
+ }
+ .pricebox2 .dollar39{
+    color: #34373E;
+    font-size: 40px;
+ }
+ .pricebox3 .dollar59{
+    color: #34373E;
+    font-size: 40px;
+ }
+ .pricebox4 .enterprise{
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: #34373E;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    background-image: linear-gradient(#F7F7F7, #F5F5F5);
+    width: 232px;
+    height: 65px;
+    border-radius: 2px 2px 0px 0px;
+    margin: 0px;
+    padding: 0px;
+ }
+ .pricebox4 .text4{
+    font-size: 14px;
+    line-height: 30px;
+    color: #34373E;
+    font-family: 'Lato', regular;
+ }
+ .pricebox4{
+    box-shadow: 0px 2px 3px #0000003C;
+    height: 370px;
+    width: 232px;
+ }
+ .pricebox4 .dollar99{
+    color: #34373E;
+    font-size: 40px;
+ }
+
+ .formtitles{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+ }
+ .container3 h1{
+    color: #34373E;
+    font-size: 40px;
+    font: normal normal normal 40px/44px Abril Fatface;
+    
+ }
+
+ .biggerp{
+    font-size: 18px;
+    font: normal normal normal 18px/22px Lato;
+    color: #6C7280;
+ }
+ .loremipsum{
+    font: normal normal normal 15px/26px Lato;
+    letter-spacing: 0px;
+    color: #6C7280;
+    opacity: 1;
+    line-height: 26px;
+ }
+ .logincontainer .email{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #DDDDDD;
+    border-radius: 2px;
+    opacity: 1;
+    width: 330px;
+    height: 60px;
+    text-align: left;
+    font: normal normal normal 14px/17px Lato;
+    letter-spacing: 0px;
+    color: #9DA5B7;
+    opacity: 1;
+
+ }
+ .logincontainer .namey {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #DDDDDD;
+    border-radius: 2px;
+    opacity: 1;
+    width: 330px;
+    height: 60px;
+    text-align: left;
+    font: normal normal normal 14px/17px Lato;
+    letter-spacing: 0px;
+    color: #9DA5B7;
+    opacity: 1;
+ }
+ .logincontainer .message {
+    height: 160px;
+    width: 330px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #DDDDDD;
+    border-radius: 2px;
+    opacity: 1;
+    text-align: left;
+    font: normal normal normal 14px/17px Lato;
+    letter-spacing: 0px;
+    color: #9DA5B7;
+    opacity: 1;
+ }
+ .logincontainer .submit{
+    background-color: #6A8BD6;
+    background: #6A8BD6 0% 0% no-repeat padding-box;
+    border-radius: 2px;
+    opacity: 1;
+    border-color: #6A8BD6;
+    width: 330px;
+    height: 60px;
+    text-align: center;
+    font: normal normal 600 14px/17px Lato;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+ }
+ .logincontainer{
+    background: #FAFAFA 0% 0% no-repeat padding-box;
+    border: 1px solid #DDDDDD;
+    border-radius: 2px;
+    opacity: 1;
+    width: 410px;
+    height: 480px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    
+    
+ }
+ .lastcont{
+    background: #D84B4B 0% 0% no-repeat padding-box;
+    opacity: 1;
+    width: 100%;
+    height: 167px;
+ }
+ 
+ .logocont{
+    font: normal normal bold 27px/31px Asap;
+    letter-spacing: 2.16px;
+    color: #FFFFFF;
+    opacity: 1;
+   
+ }
+ .contlm{
+    align-items: center;
+ }
+ .menucont{
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    color: #fff;
+    right: 100px;
+    font-family: 'Lato', sans-serif;
+    text-align: left;
+    gap: 70px;
+
+ }
+ .images{
+    display: flex;
+    justify-content: flex-end;
+    gap: 16px;
+ }
+
+
+
+
+ @media only screen and (max-width: 1104px) {
+    .phone {
+        display: none;
+    }
+    .prices{
+        flex-wrap: wrap;
+    }
+    }
+ 
+ @media only screen and (max-width: 546px) {
+    .menu{
+        display: none;
+        
+    }
+    .edebi{
+        flex-direction: column;
+    }
+    .buttons{
+        display: none;
+    }
+    }
+    
+ @media only screen and (max-width: 622px){
+    .titles h1{
+        font-size: 30px;
+    }
+    .titles p{
+        font-size: 15px;
+    }
+    
+ }
+ 
+ @media only screen and(max-width: 760px){
+    .container .header{
+        font-size: 30px;
+    }
+    .loginbox{
+        display: none;
+    }
+    }
+ @media only screen and(max-width: 952px){
+    .edebi{
+        flex-direction: column;
+    }
+ }
+ 
